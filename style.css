@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.box{
+    width: 300px;
+    height: 500px;
+}
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #ffffff00;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    nav ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 50px;
+    }
+    nav ul li a{
+        color: black;
+        text-decoration: none;
+    }
+    nav ul li{
+        list-style: none;
+    }
+    nav button{
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+    }
+}
+main{
+    padding: 100px 50px;
+    display: flex;
+}
+
+h1 {
+    font-family: Sofia Sans;
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 104.12px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgb(51, 51, 51);
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: Sofia Sans;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 60.06px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: rgb(58, 58, 58);
+    margin-bottom: 50px;
+}
+
+.span {
+    font-family: Sofia Sans;
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 60.06px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: black;
+}
+
+p {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 45.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.dollar {
+    font-family: Poppins;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 95.9px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 20px;
+}
